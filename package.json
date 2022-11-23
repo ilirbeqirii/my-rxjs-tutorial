@@ -1,0 +1,40 @@
+{
+  "name": "my-rxjs-tutorial",
+  "version": "1.0.0",
+  "description": "Traning my skills with RxJS on different operators",
+  "main": "index.js",
+  "scripts": {
+    "of": "node js/of.js",
+    "from": "node js/from.js",
+    "finalize": "node js/finalize.js",
+    "observable": "node js/observable.js",
+    "empty": "node js/empty.js",
+    "take": "node js/take.js",
+    "defer": "node js/defer.js",
+    "skip": "node js/skip.js",
+    "skip:while": "node js/skip-while.js",
+    "take:while": "node js/take-while.js",
+    "take:until": "node js/take-until.js",
+    "skip:until": "node js/skip-until.js",
+    "take:last": "node js/take-last.js",
+    "skip:last": "node js/skip-last.js",
+    "map:to": "node js/mapto.js",
+    "reduce": "node js/reduce.js",
+    "scan": "node js/scan.js",
+    "throttleTime": "node js/throttleTime.js",
+    "debounceTime": "node js/debounceTime.js",
+    "timer": "node js/timer.js",
+    "delay": "node js/delay.js",
+    "delayWhen": "node js/delayWhen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.17",
+    "rxjs": "^7.5.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
